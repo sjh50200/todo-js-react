@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+  <title>todo javascript</title>
+  <script type="module" src="./main.js" />
+  <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+  <div>
+    <input type="text" id="todo-input" />
+    <button id="add-todo">추가</button>
+  </div>
+  <div>
+    <input type="radio" name="todo-filter" id="all" value="ALL" checked />
+    <label for="all">전체</label>
+    <input type="radio" name="todo-filter" id="done" value="DONE" />
+    <label for="done">완료</label>
+    <input type="radio" name="todo-filter" id="todo" value="TODO" />
+    <label for="todo">미완료</label>
+  </div>
+  <div id="todo-list"></div>
+</body>
